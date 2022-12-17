@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: grid;
+            place-items: center;
+            margin-top: 50vh;
+        }
+        #email{
+            font-size: 5vw;
+        }
+        #pwd{
+            font-size: 5vw;
+        }
+        #btn{
+            font-size: 5vw;
+        }
+        #emailMsg{
+            font-size: 5vw;
+        }
+        #passMsg{
+            font-size: 5vw;
+        }
+
+        
+
+
+    </style>
+</head>
+<body>
+ <div class="container">
+    <h1 style="font-size: 5vw;">Registration Form</h1>
+    <div style="font-size:2rem">Email</div>
+    <input type="text" id="email" placeholder="Example@gmail.com"> <br>
+    <div id="emailMsg"></div>
+    <div id="pass" style="font-size:2rem">Password</div>
+    <input type="password" id="pwd" placeholder="Your Password"> 
+    <div id="passMsg"></div>
+    <button id="btn">Submit</button>
+</div>
+    <script src="script.js"></script>
+</body>
+</html>
